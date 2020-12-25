@@ -1,41 +1,41 @@
 @font-face {
     font-family: 'montserratmedium_italic';
-    src: url("/fonts/montserrat-mediumitalic-webfont.woff2") format("woff2");
+    src: url('fonts/montserrat-mediumitalic-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'montserratregular';
-    src: url("montserrat-regular-webfont.woff2") format("woff2");
+    src: url('fonts/montserrat-regular-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'montserratsemibold';
-    src: url("montserrat-semibold-webfont.woff2") format("woff2");
+    src: url('fonts/montserrat-semibold-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'montserratsemibold_italic';
-    src: url("montserrat-semibolditalic-webfont.woff2") format("woff2");
+    src: url('fonts/montserrat-semibolditalic-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'montserratthin';
-    src: url("montserrat-thin-webfont.woff2") format("woff2");
+    src: url('fonts/montserrat-thin-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'montserratthin_italic';
-    src: url("montserrat-thinitalic-webfont.woff2") format("woff2");
+    src: url('fonts/montserrat-thinitalic-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
