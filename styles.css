@@ -310,7 +310,7 @@ body {
 .menu__box,
 .hamburger-menu {
   display: none;
-}
+} 
 
 @media (max-width: 3567px) {
 
