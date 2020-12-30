@@ -6,8 +6,7 @@ body {
 .menu {
   display: flex;
   text-align: center;
-  padding: 0 689px;
-  margin: 49px 0 25px 16px;
+  margin: 3.3vw 8vw 0 46.1vw;
 }
 
 .menu__item {
@@ -349,7 +348,8 @@ a.form__item_send:hover {
 .menu {
   display: flex;
   text-align: center;
-  margin: 9px 0 25px 16px;
+  margin: 9px 7px 25px 16px;
+  padding: 0;
 }
 
 .menu__item_btn {
@@ -358,7 +358,7 @@ a.form__item_send:hover {
   color: #fff;
   background: #330099;
   padding: 5px 11px 5px 11px;
-  margin: 7px 0 -7px -164.7vw;
+  margin: 7px 0 -7px 50.5vw;
   text-decoration: none;
   border-radius: 50px;
 }
@@ -548,7 +548,7 @@ a.form__item_send:hover {
 
 .footer__txt {
   background: #330099;
-  height: 25%;
+  height: 23%;
   width: 100%;
 }
 
@@ -575,7 +575,8 @@ a.form__item_send:hover {
 .social__linkedin_mob,
 .social__instagram_mob,
 .social__facebook_mob {
-  margin: 0vw 13vw 0vw 10vw;
+  margin: 0vw 10.1vw 0vw 6vw;
+  padding: 0 1vw 0 4.7vw;
 }
 
 #menu__toggle {
@@ -664,5 +665,9 @@ a.form__item_send:hover {
 
 .menu__item_box:hover {
   background-color: #cfd8dc;
+}
+
+.hamburger-menu {
+  display: flex;
 }
 }
