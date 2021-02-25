@@ -44,7 +44,7 @@ body {
 }
 
 .container__subtitle {
-  font: bold 2.2vw/2.4vw 'montserrat', arial, helvetica, sans-serif;
+  font: 2vw/2.4vw 'montserrat', arial, helvetica, sans-serif;
   color: #fff;
   margin: 0.6vw 9vw 0 -32.7vw;
   text-align-last: end;
@@ -66,7 +66,7 @@ body {
   justify-content: center;
 }
 
-.advantage {
+.section__advantage {
   columns: 3;
   column-gap: 4vw;
   margin: 0 8vw;
@@ -75,18 +75,18 @@ body {
   align-items: flex-start;
 }
 
-.advantage__heart {
+.advantage-heart {
   background: 9.4vw 0.4vw no-repeat url(img/imgicon1.svg);
 }
 
-.advantage__title_heart {
+.advantage-title_heart {
   font: 900 2.2vw/2.7vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   margin: 8.3vw 1.2vw 0 1vw;
   text-align: center;
 }
 
-.advantage__subtitle_heart {
+.advantage-subtitle_heart {
   font: 500 1.4vw/1.7vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   margin: 0.8vw 2vw 0 1vw;
@@ -94,11 +94,11 @@ body {
   text-align: center;
 }
 
-.advantage__price {
+.advantage-price {
   background: 9.5vw 0.5vw no-repeat url(img/imgicon2.svg);
 }
 
-.advantage__title_price {
+.advantage-title_price {
   font: 900 2vw/2.7vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   margin: 8.5vw 6vw 2vw 7vw;
@@ -107,7 +107,7 @@ body {
   display: flex;
 }
 
-.advantage__subtitle_price {
+.advantage-subtitle_price {
   font: 500 1.4vw/1.6vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   margin: 2vw 0vw 0vw 1.5vw;
@@ -118,18 +118,18 @@ body {
   display: flex;
 }
 
-.advantage__good {
+.advantage-good {
   background: 10.3vw 0.7vw no-repeat url(img/imgicon3.svg);
 }
 
-.advantage__title_good {
+.advantage-title_good {
   font: 900 2.1vw/2.7vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   margin: 8.4vw 7vw 0 7vw;
   text-align: center;
 }
 
-.advantage__subtitle_good {
+.advantage-subtitle_good {
   font: 500 1.4vw/1.7vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   margin: 0.7vw 2vw 0vw 2vw;
@@ -137,7 +137,7 @@ body {
   text-align: center;
 }
 
-.advantage__btn_les {
+.advantage-btn_les {
   display: flex;
   font: 800 1.4vw/1.8vw 'montserrat', arial, helvetica, sans-serif;
   color: #fff;
@@ -150,7 +150,7 @@ body {
   align-items: flex-start;
 }
 
-.skills {
+.section__skills {
   background: 9vw 6vw no-repeat url(img/img1.svg);
 }
 
@@ -186,7 +186,7 @@ body {
   align-items: flex-start;
 }
 
-.skills__js {
+.section__skills_js {
   background: 78.8vw 0.3vw no-repeat url(img/img2.svg);
 }
 
@@ -208,7 +208,7 @@ body {
   letter-spacing: 0.07em;
 }
 
-.skills__react {
+.section__skills_react {
   background: 9vw 0vw no-repeat url(img/img3.svg);
 }
 
@@ -347,7 +347,7 @@ a.menu__item_btn:hover {
   color: #ffff00;
 }
 
-a.advantage__btn_les:hover {
+a.advantage-btn_les:hover {
   color: #ffff00;
   background: #6495ed;
 }
@@ -409,36 +409,36 @@ a.form__item_send:hover {
     padding-top: 6.5vw;
   }
 
-  .advantage__title_heart {
+  .advantage-title_heart {
     font: 900 2.2vw/2.7vw 'montserrat', arial, helvetica, sans-serif;
     margin: 7.7vw 2.2vw 0 1vw;
   }
 
-  .advantage__subtitle_heart {
+  .advantage-subtitle_heart {
     font: 500 1.4vw/1.7vw 'montserrat', arial, helvetica, sans-serif;
     margin: 0.8vw 2vw 0 0vw;
   }
 
-  .advantage__title_price {
+  .advantage-title_price {
     font: 900 2vw/2.7vw 'montserrat', arial, helvetica, sans-serif;
     margin: 7.7vw 7vw 1.5vw 7vw;
   }
 
-  .advantage__subtitle_price {
+  .advantage-subtitle_price {
     font: 500 1.4vw/1.6vw 'montserrat', arial, helvetica, sans-serif;
   }
 
-  .advantage__title_good {
+  .advantage-title_good {
     font: 900 2.1vw/2.7vw 'montserrat', arial, helvetica, sans-serif;
     margin: 8vw 7vw 0 6.8vw;
   }
 
-  .advantage__subtitle_good {
+  .advantage-subtitle_good {
     font: 500 1.4vw/1.6vw 'montserrat', arial, helvetica, sans-serif;
     margin: 0.6vw 2vw 0 2vw;
   }
 
-  .advantage__btn_les {
+  .advantage-btn_les {
     font: 800 1.4vw/1.7vw 'montserrat', arial, helvetica, sans-serif;
   }
 
@@ -455,7 +455,7 @@ a.form__item_send:hover {
     font: 500 1.4vw/1.7vw 'montserrat', arial, helvetica, sans-serif;
   }
 
-  .skills__js {
+  .section__skills_js {
     background: 79.8vw 2.3vw no-repeat url(img/img2.svg);
   }
 
@@ -469,7 +469,7 @@ a.form__item_send:hover {
     font: 500 1.4vw/2vw 'montserrat', arial, helvetica, sans-serif;
   }
 
-  .skills__react {
+  .section__skills_react {
     background: 9vw 1.3vw no-repeat url(img/img3.svg);
   }
 
@@ -623,7 +623,7 @@ a.form__item_send:hover {
     justify-content: center;
   }
 
-  .advantage {
+  .section__advantage {
     columns: 3;
     column-gap: 4vw;
     margin: 0 8vw;
@@ -632,18 +632,18 @@ a.form__item_send:hover {
     align-items: flex-start;
   }
 
-  .advantage__heart {
+  .advantage-heart {
     background: 9.4vw 0.4vw no-repeat url(img/imgicon1.svg);
   }
 
-  .advantage__title_heart {
+  .advantage-title_heart {
     font: 900 2.2vw/2.7vw 'montserrat', arial, helvetica, sans-serif;
     color: #585858;
     margin: 8.3vw 1.2vw 0 1vw;
     text-align: center;
   }
 
-  .advantage__subtitle_heart {
+  .advantage-subtitle_heart {
     font: 500 1.4vw/1.7vw 'montserrat', arial, helvetica, sans-serif;
     color: #585858;
     margin: 0.8vw 2vw 0 1vw;
@@ -651,11 +651,11 @@ a.form__item_send:hover {
     text-align: center;
   }
 
-  .advantage__price {
+  .advantage-price {
     background: 9.5vw 0.5vw no-repeat url(img/imgicon2.svg);
   }
 
-  .advantage__title_price {
+  .advantage-title_price {
     font: 900 2vw/2.7vw 'montserrat', arial, helvetica, sans-serif;
     color: #585858;
     margin: 8.5vw 6vw 2vw 7vw;
@@ -664,7 +664,7 @@ a.form__item_send:hover {
     display: flex;
   }
 
-  .advantage__subtitle_price {
+  .advantage-subtitle_price {
     font: 500 1.4vw/1.6vw 'montserrat', arial, helvetica, sans-serif;
     color: #585858;
     margin: 2vw 0vw 0vw 1.5vw;
@@ -675,18 +675,18 @@ a.form__item_send:hover {
     display: flex;
   }
 
-  .advantage__good {
+  .advantage-good {
     background: 10.3vw 0.7vw no-repeat url(img/imgicon3.svg);
   }
 
-  .advantage__title_good {
+  .advantage-title_good {
     font: 900 2.1vw/2.7vw 'montserrat', arial, helvetica, sans-serif;
     color: #585858;
     margin: 8.4vw 7vw 0 7vw;
     text-align: center;
   }
 
-  .advantage__subtitle_good {
+  .advantage-subtitle_good {
     font: 500 1.4vw/1.7vw 'montserrat', arial, helvetica, sans-serif;
     color: #585858;
     margin: 0.7vw 2vw 0vw 2vw;
@@ -694,7 +694,7 @@ a.form__item_send:hover {
     text-align: center;
   }
 
-  .advantage__btn_les {
+  .advantage-btn_les {
     display: flex;
     font: 800 1.4vw/1.8vw 'montserrat', arial, helvetica, sans-serif;
     color: #fff;
@@ -707,7 +707,7 @@ a.form__item_send:hover {
     align-items: flex-start;
   }
 
-  .skills {
+  .section__skills {
     background: 9vw 6vw no-repeat url(img/img1.svg);
   }
 
@@ -743,7 +743,7 @@ a.form__item_send:hover {
     align-items: flex-start;
   }
 
-  .skills__js {
+  .section__skills_js {
     background: 78.8vw 0.3vw no-repeat url(img/img2.svg);
   }
 
@@ -765,7 +765,7 @@ a.form__item_send:hover {
     letter-spacing: 0.07em;
   }
 
-  .skills__react {
+  .section__skills_react {
     background: 9vw 0vw no-repeat url(img/img3.svg);
   }
 
@@ -1017,12 +1017,12 @@ a.form__item_send:hover {
   padding-top: 15vw;
 }
 
-.advantage {
+.section__advantage {
   width: 100%;
   display: inline;
 }
 
-.advantage__heart {
+.advantage-heart {
   background: 41vw 5vw no-repeat url(img/heart.jpg);
 }
 
@@ -1039,7 +1039,7 @@ a.form__item_send:hover {
   margin: 0vw 16vw 11vw 16vw;
 }
 
-.advantage__price {
+.advantage-price {
   background: 42vw 0vw no-repeat url(img/pig.png);
 }
 
@@ -1057,7 +1057,7 @@ a.form__item_send:hover {
   margin: 1.5vw 8.5vw 0 8.5vw;
 }
 
-.advantage__good {
+.advantage-good {
   background: 40vw 0vw no-repeat url(img/medal.png);
 }
 
@@ -1076,7 +1076,7 @@ a.form__item_send:hover {
   padding: 0vw;
 }
 
-.advantage__btn_les {
+.advantage-btn_les {
   display: inline-block;
   font: 800 16px/20px 'montserrat', arial, helvetica, sans-serif;
   color: #ffda45;
@@ -1109,7 +1109,7 @@ a.form__item_send:hover {
   padding-bottom: 14vw;
 }
 
-.skills {
+.section__skills {
   background: 22.4vw 17vw no-repeat url(img/JPG4.png);
 }
 
