@@ -46,7 +46,7 @@ body {
 .container__subtitle {
   font: 2vw/2.4vw 'montserrat', arial, helvetica, sans-serif;
   color: #fff;
-  margin: 0.6vw 9vw 0 -32.7vw;
+  margin: 0.6vw 7.9vw 0 -32.7vw;
   text-align-last: end;
 }
 
@@ -603,7 +603,7 @@ a.form__item_send:hover {
   .container__subtitle {
     font: bold 2.2vw/2.4vw 'montserrat', arial, helvetica, sans-serif;
     color: #fff;
-    margin: 0.6vw 9vw 0 -32.7vw;
+    margin: 0.6vw 7.9vw 0 -32.7vw;
     text-align-last: end;
   }
 
