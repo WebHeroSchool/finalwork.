@@ -66,7 +66,7 @@ body {
   justify-content: center;
 }
 
-.section__advantage {
+.section__advantage_column {
   columns: 3;
   column-gap: 4vw;
   margin: 0 8vw;
@@ -150,7 +150,7 @@ body {
   align-items: flex-start;
 }
 
-.section__skills {
+.section__skills_img {
   background: 9vw 6vw no-repeat url(img/img1.svg);
 }
 
@@ -623,7 +623,7 @@ a.form__item_send:hover {
     justify-content: center;
   }
 
-  .section__advantage {
+  .section__advantage_column {
     columns: 3;
     column-gap: 4vw;
     margin: 0 8vw;
@@ -707,7 +707,7 @@ a.form__item_send:hover {
     align-items: flex-start;
   }
 
-  .section__skills {
+  .section__skills_img {
     background: 9vw 6vw no-repeat url(img/img1.svg);
   }
 
@@ -1001,7 +1001,7 @@ a.form__item_send:hover {
   color: #fff;
   letter-spacing: 0.05em;
   margin: 0;
-  padding: 0 4vw 0 16vw;
+  padding: 0 2vw 0 16vw;
 }
 
 .section {
@@ -1011,13 +1011,13 @@ a.form__item_send:hover {
 }
 
 .section__title_what {
-  font: 900 16px/20px 'montserrat', arial, helvetica, sans-serif;
+  font: 900 4.9vw/6vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   margin: 0vw 23vw 0vw 24vw;
   padding-top: 15vw;
 }
 
-.section__advantage {
+.section__advantage_column {
   width: 100%;
   display: inline;
 }
@@ -1026,15 +1026,15 @@ a.form__item_send:hover {
   background: 41vw 5vw no-repeat url(img/heart.jpg);
 }
 
-.advantage__title_heart {
-  font: 900 16px/20px 'montserrat', arial, helvetica, sans-serif;
+.advantage-title_heart {
+  font: 900 4.9vw/7vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   margin: 0vw 24vw 1vw 24vw;
   padding-top: 23vw
 }
 
-.advantage__subtitle_heart {
-  font: 500 16px/20px 'montserrat', arial, helvetica, sans-serif;
+.advantage-subtitle_heart {
+  font: 500 4.3vw/6vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   margin: 0vw 16vw 11vw 16vw;
 }
@@ -1043,15 +1043,15 @@ a.form__item_send:hover {
   background: 42vw 0vw no-repeat url(img/pig.png);
 }
 
-.advantage__title_price {
-  font: 900 16px/20px 'montserrat', arial, helvetica, sans-serif;
+.advantage-title_price {
+  font: 900 5.3vw/6.4vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   margin: 0 17vw 0 17vw;
   padding: 18vw 17vw 0;
 }
 
-.advantage__subtitle_price {
-  font: 500 16px/20px 'montserrat', arial, helvetica, sans-serif;
+.advantage-subtitle_price {
+  font: 500 4.3vw/6vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   text-align: center;
   margin: 1.5vw 8.5vw 0 8.5vw;
@@ -1061,15 +1061,15 @@ a.form__item_send:hover {
   background: 40vw 0vw no-repeat url(img/medal.png);
 }
 
-.advantage__title_good {
-  font: 900 16px/20px 'montserrat', arial, helvetica, sans-serif;
+.advantage-title_good {
+  font: 900 5.3vw/6.4vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   margin: 10vw 17vw 0 18vw;
-  padding: 18vw 7vw 0vw 7vw;
+  padding: 20vw 7vw 0vw 7vw;
 }
 
-.advantage__subtitle_good {
-  font: 500 16px/20px 'montserrat', arial, helvetica, sans-serif;
+.advantage-subtitle_good {
+  font: 500 4.3vw/6.4vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   text-align: center;
   margin: 1vw 15vw 0vw 15vw;
@@ -1078,13 +1078,13 @@ a.form__item_send:hover {
 
 .advantage-btn_les {
   display: inline-block;
-  font: 800 16px/20px 'montserrat', arial, helvetica, sans-serif;
+  font: 800 4.9vw/4.4vw 'montserrat', arial, helvetica, sans-serif;
   color: #ffda45;
   background: #330099;
   text-decoration: none;
   border-radius: 8.2vw;
-  margin: 6vw 9vw 17vw 9vw;
-  padding: 5.3vw 5.3vw 5.3vw 7vw;
+  margin: 5vw 9vw 18vw 9vw;
+  padding: 5.9vw 5.3vw 5.9vw 7vw;
 }
 
 .skills__title {
@@ -1094,18 +1094,17 @@ a.form__item_send:hover {
 }
 
 .skills__title_comp {
-  font: 600 16px/20px 'montserrat', arial, helvetica, sans-serif;
+  font: 600 4.6vw/6.1vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
-  letter-spacing: 0.05em;
   text-align: center;
   margin: 69vw 15vw 0 15vw;
 }
 
 .skills__subtitle_comp {
-  font: 500 14px/17px 'montserrat', arial, helvetica, sans-serif;
+  font: 500 3.8vw/5.3vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   text-align: center;
-  margin: 3vw 23vw 11vw 21vw;
+  margin: 3vw 25vw 11vw 21vw;
   padding-bottom: 14vw;
 }
 
@@ -1124,7 +1123,7 @@ a.form__item_send:hover {
 }
 
 .form__title {
-  font: 900 16px/20px 'montserrat', arial, helvetica, sans-serif;
+  font: 900 4.9vw/6.1vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   display: flex;
   margin: 0 28vw 0 30vw;
@@ -1132,7 +1131,7 @@ a.form__item_send:hover {
 }
 
 .form__subtitle {
-  font: 600 16px/20px 'montserrat', arial, helvetica, sans-serif;
+  font: 600 4.6vw/6.4vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   letter-spacing: 0.03em;
   margin: 69.5vw 12vw 6vw;
@@ -1154,14 +1153,14 @@ a.form__item_send:hover {
 .input {
   border: 0;
   outline: none;
-  font: 600 10px/12px 'montserrat', arial, helvetica, sans-serif;
+  font: 600 3.1vw/3.9vw 'montserrat', arial, helvetica, sans-serif;
   color: #585858;
   letter-spacing: 0.03em;
 }
 
 .form__item_send {
   display: flex;
-  font: 900 16px/20px 'montserrat', arial, helvetica, sans-serif;
+  font: 900 4.9vw/6.9vw 'montserrat', arial, helvetica, sans-serif;
   color: #fff;
   background: #4ab272;
   margin: 11.9vw 9vw 9vw 10vw;
@@ -1177,7 +1176,7 @@ a.form__item_send:hover {
 }
 
 .footer__txt_title {
-  font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  font: 500 4.4vw/4.9vw Roboto, arial, helvetica, sans-serif;
   color: #fff;
   margin: 0.1vw 9vw;
   padding: 10vw 14vw 0.1vw 13vw;
@@ -1186,7 +1185,7 @@ a.form__item_send:hover {
 
 .footer__txt_school {
   display: block;
-  font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  font: 500 4.4vw/9.9vw Roboto, arial, helvetica, sans-serif;
   color: #fff;
   margin: 8vw 25vw 10vw 25.6vw;
 }
