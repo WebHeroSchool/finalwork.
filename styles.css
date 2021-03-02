@@ -892,7 +892,7 @@ a.form__item_send:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1270px) {
 
   .section {
     width: 100%;
@@ -912,7 +912,7 @@ a.form__item_send:hover {
   }
 
   .section__skills_img {
-    background: 9.4vw 12vw no-repeat url(img/4.png);
+    background: 9.4vw 19vw no-repeat url(img/4.png);
     background-color: white;
     padding-top: 7vw;
   }
@@ -926,7 +926,7 @@ a.form__item_send:hover {
   }
 
   .article {
-    background: rgba(51, 0, 153, 0.12) 43.4vw 10vw no-repeat url(img/3.png);
+    background: rgba(51, 0, 153, 0.12) 46.2vw 10vw no-repeat url(img/3.png);
     width: 100%;
   }
 
