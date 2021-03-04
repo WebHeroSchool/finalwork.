@@ -366,6 +366,10 @@ a.form__item_send:hover {
   padding-top: 3.3vw;
   padding-bottom: 5vw;
 }
+
+.social__min {
+  display: none;
+}
 }
 
 
@@ -560,7 +564,8 @@ a.form__item_send:hover {
 
   .social__mob,
   .menu__box,
-  .hamburger-menu {
+  .hamburger-menu,
+  .social__min {
     display: none;
   }
 
@@ -887,7 +892,8 @@ a.form__item_send:hover {
 
   .social__mob,
   .menu__box,
-  .hamburger-menu {
+  .hamburger-menu,
+  .social__min {
     display: none;
   }
 }
@@ -950,7 +956,53 @@ a.form__item_send:hover {
     padding-bottom: 3vw;
   }
 
-  .social__icon {
+  .social__icon,
+  .social__min {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .advantage-heart {
+    background: 9vw 0vw no-repeat url(img/768/imh.png);
+  }
+
+  .advantage-price {
+    background: 10vw 0vw no-repeat url(img/768/imp.png);
+  }
+
+  .advantage-good {
+    background: 10.5vw 0vw no-repeat url(img/768/imm.png);
+  }
+
+  .section__skills_img {
+    background: 9.4vw 19vw no-repeat url(img/768/imc.jpg);
+    background-color: white;
+    padding-top: 7vw;
+  }
+
+  .section__skills_js {
+      background: 78.8vw 0.3vw no-repeat url(img/768/imj.jpg);
+  }
+
+  .section__skills_react {
+    background: 9vw 0vw no-repeat url(img/768/ims.jpg);
+  }
+
+  .article {
+    background: rgba(51, 0, 153, 0.12) 44.2vw 10vw no-repeat url(img/768/imw.png);
+  }
+
+  .social__min {
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7vw;
+    background: no-repeat url(img/768/.png);
+  }
+
+  .social__mob {
     display: none;
   }
 }
@@ -963,7 +1015,8 @@ a.form__item_send:hover {
 .menu__item,
 .social__linkedin,
 .social__instagram,
-.social__facebook {
+.social__facebook,
+.social__min {
   display: none;
 }
 
