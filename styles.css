@@ -366,6 +366,10 @@ a.form__item_send:hover {
   padding-top: 3.3vw;
   padding-bottom: 5vw;
 }
+
+.social__min {
+  display: none;
+}
 }
 
 
@@ -444,7 +448,7 @@ a.form__item_send:hover {
   }
 
   .section__skills_img {
-    background: 9vw 15vw no-repeat url(img/img1.svg);
+    background: 9vw 11vw no-repeat url(img/img1.svg);
     background-color: white;
     padding-top: 0.1vw;
     padding-bottom: 0.1vw;
@@ -560,7 +564,8 @@ a.form__item_send:hover {
 
   .social__mob,
   .menu__box,
-  .hamburger-menu {
+  .hamburger-menu,
+  .social__min {
     display: none;
   }
 
@@ -887,12 +892,13 @@ a.form__item_send:hover {
 
   .social__mob,
   .menu__box,
-  .hamburger-menu {
+  .hamburger-menu,
+  .social__min {
     display: none;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1270px) {
 
   .section {
     width: 100%;
@@ -900,33 +906,33 @@ a.form__item_send:hover {
   }
 
   .advantage-heart {
-    background: 9vw 0vw no-repeat url(img/heart.jpg);
+    background: 9vw 0vw no-repeat url(img/him.png);
   }
 
   .advantage-price {
-    background: 9vw 0vw no-repeat url(img/pig.png);
+    background: 9vw 0vw no-repeat url(img/pim.png);
   }
 
   .advantage-good {
-    background: 9vw 0vw no-repeat url(img/medal.png);
+    background: 9vw 0vw no-repeat url(img/sim.png);
   }
 
   .section__skills_img {
-    background: 9.4vw 12vw no-repeat url(img/4.png);
+    background: 9.4vw 19vw no-repeat url(img/imgc.png);
     background-color: white;
     padding-top: 7vw;
   }
 
   .section__skills_js {
-      background: 78.8vw 0.3vw no-repeat url(img/2.png);
+      background: 78.8vw 0.3vw no-repeat url(img/imgj.png);
   }
 
   .section__skills_react {
-    background: 9vw 0vw no-repeat url(img/1.png);
+    background: 9vw 0vw no-repeat url(img/imgr.png);
   }
 
   .article {
-    background: rgba(51, 0, 153, 0.12) 43.4vw 10vw no-repeat url(img/3.png);
+    background: rgba(51, 0, 153, 0.12) 46.2vw 10vw no-repeat url(img/imgw.png);
     width: 100%;
   }
 
@@ -950,7 +956,53 @@ a.form__item_send:hover {
     padding-bottom: 3vw;
   }
 
-  .social__icon {
+  .social__icon,
+  .social__min {
+    display: none;
+  }
+}
+
+@media (max-width: 606px) {
+  .advantage-heart {
+    background: 10vw 0vw no-repeat url(img/768/imh.png);
+  }
+
+  .advantage-price {
+    background: 11vw 0vw no-repeat url(img/768/imp.png);
+  }
+
+  .advantage-good {
+    background: 11.5vw 0vw no-repeat url(img/768/imm.png);
+  }
+
+  .section__skills_img {
+    background: 9.4vw 19vw no-repeat url(img/768/imc.jpg);
+    background-color: white;
+    padding-top: 7vw;
+  }
+
+  .section__skills_js {
+      background: 82.8vw 0.3vw no-repeat url(img/768/imj.jpg);
+  }
+
+  .section__skills_react {
+    background: 9vw 0vw no-repeat url(img/768/ims.jpg);
+  }
+
+  .article {
+    background: rgba(51, 0, 153, 0.12) 46.2vw 10vw no-repeat url(img/768/imw.png);
+  }
+
+  .social__min {
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7vw;
+    background: no-repeat url(img/768/.png);
+  }
+
+  .social__mob {
     display: none;
   }
 }
@@ -963,7 +1015,8 @@ a.form__item_send:hover {
 .menu__item,
 .social__linkedin,
 .social__instagram,
-.social__facebook {
+.social__facebook,
+.social__min {
   display: none;
 }
 
@@ -1024,7 +1077,7 @@ a.form__item_send:hover {
 }
 
 .advantage-heart {
-  background: 41vw 5vw no-repeat url(img/heart.jpg);
+  background: 41vw 5vw no-repeat url(img/heart.png);
 }
 
 .advantage-title_heart {
