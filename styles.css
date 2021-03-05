@@ -448,7 +448,7 @@ a.form__item_send:hover {
   }
 
   .section__skills_img {
-    background: 9vw 15vw no-repeat url(img/img1.svg);
+    background: 9vw 11vw no-repeat url(img/img1.svg);
     background-color: white;
     padding-top: 0.1vw;
     padding-bottom: 0.1vw;
@@ -906,33 +906,33 @@ a.form__item_send:hover {
   }
 
   .advantage-heart {
-    background: 9vw 0vw no-repeat url(img/heart.jpg);
+    background: 9vw 0vw no-repeat url(img/him.png);
   }
 
   .advantage-price {
-    background: 9vw 0vw no-repeat url(img/pig.png);
+    background: 9vw 0vw no-repeat url(img/pim.png);
   }
 
   .advantage-good {
-    background: 9vw 0vw no-repeat url(img/medal.png);
+    background: 9vw 0vw no-repeat url(img/sim.png);
   }
 
   .section__skills_img {
-    background: 9.4vw 19vw no-repeat url(img/4.png);
+    background: 9.4vw 19vw no-repeat url(img/imgc.png);
     background-color: white;
     padding-top: 7vw;
   }
 
   .section__skills_js {
-      background: 78.8vw 0.3vw no-repeat url(img/2.png);
+      background: 78.8vw 0.3vw no-repeat url(img/imgj.png);
   }
 
   .section__skills_react {
-    background: 9vw 0vw no-repeat url(img/1.png);
+    background: 9vw 0vw no-repeat url(img/imgr.png);
   }
 
   .article {
-    background: rgba(51, 0, 153, 0.12) 46.2vw 10vw no-repeat url(img/3.png);
+    background: rgba(51, 0, 153, 0.12) 46.2vw 10vw no-repeat url(img/imgw.png);
     width: 100%;
   }
 
@@ -962,17 +962,17 @@ a.form__item_send:hover {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 606px) {
   .advantage-heart {
-    background: 9vw 0vw no-repeat url(img/768/imh.png);
+    background: 10vw 0vw no-repeat url(img/768/imh.png);
   }
 
   .advantage-price {
-    background: 10vw 0vw no-repeat url(img/768/imp.png);
+    background: 11vw 0vw no-repeat url(img/768/imp.png);
   }
 
   .advantage-good {
-    background: 10.5vw 0vw no-repeat url(img/768/imm.png);
+    background: 11.5vw 0vw no-repeat url(img/768/imm.png);
   }
 
   .section__skills_img {
@@ -982,7 +982,7 @@ a.form__item_send:hover {
   }
 
   .section__skills_js {
-      background: 78.8vw 0.3vw no-repeat url(img/768/imj.jpg);
+      background: 82.8vw 0.3vw no-repeat url(img/768/imj.jpg);
   }
 
   .section__skills_react {
@@ -990,7 +990,7 @@ a.form__item_send:hover {
   }
 
   .article {
-    background: rgba(51, 0, 153, 0.12) 44.2vw 10vw no-repeat url(img/768/imw.png);
+    background: rgba(51, 0, 153, 0.12) 46.2vw 10vw no-repeat url(img/768/imw.png);
   }
 
   .social__min {
@@ -1077,7 +1077,7 @@ a.form__item_send:hover {
 }
 
 .advantage-heart {
-  background: 41vw 5vw no-repeat url(img/heart.jpg);
+  background: 41vw 5vw no-repeat url(img/heart.png);
 }
 
 .advantage-title_heart {
